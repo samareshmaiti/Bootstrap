@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>THe Wall</title>
+	<link href="img/logo.png" rel="icon">
+  <meta charset="utf-8">
+  <link href="css/main.css" rel="stylesheet"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--Starting of navigation bar-->
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <!---Logo area-->
+      <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <!---Start of navigation menu items-->
+        <li class="active"><a href="#">Home</a></li>
+		  
+        <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Industries <span class="caret"></span></a>
+                  <ul class="dropdown-menu nav-nav-tabs">
+                    <li><a href="#">Industry1</a></li>
+                    <li><a href="#">Industry2</a></li>
+                    <li><a href="#">Industry3</a></li>
+                   </ul>
+        </li>
+		    <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Service1</a></li>
+                  <li><a href="#">Srvice2</a></li>
+                  <li><a href="#">Srvice3</a></li>
+                </ul>
+		    </li>
+        <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Platforms <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Platform1</a></li>
+                      <li><a href="#">Platform2</a></li>
+                      <li><a href="#">platform3</a></li>
+                    </ul>
+        </li>
+		    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Clients<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Client1</a></li>
+                        <li><a href="#">client2</a></li>
+                        <li><a href="#">Client3</a></li>
+                      </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span>New Joiners</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Members</a></li>
+      </ul>
+  </div>
+</div>
+</nav>
+      <!---Upto this navigation bar-->
+
+<div class="bs-example">    
+    <div class="jumbotron">
+        <h1>
+          <b>We are the pioneer</b>
+        </h1>
+        <p class="lead"></p>
+        <!-- Trigger the modal with a button -->
+       <button type="button" class="btn btn-info btn-lg center-block" data-toggle="modal" data-target="#myModal">Reach Us</button>
+
+  <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Welcome</h4>
+        </div>
+      <div class="modal-body">
+          <p>
+          <div id="map-container-google-1" class="z-depth-1-half map-container">
+           <iframe src="https://maps.google.com/maps?q=bengalore&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+           style="border:0" allowfullscreen></iframe>
+          </div>
+         </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div>
+  <!--making crousel---->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/iot.jpg" alt="tech1">
+        </div>
+  
+        <div class="item">
+          <img src="img/image_back2.jpg" alt="tech2" >
+        </div>
+      
+        <div class="item">
+          <img src="img/image_back3.jpeg" alt="tech3">
+        </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!---Starting of grid-->
+  <section id="grid" style="background-image:url('img/1.jpg')">
+  <div class="container-fluid">
+       <div class="row mt-5">
+             <img src="img/success_story.jpg"alt="success story" class="img-fluid">
+              <div class="col-sm-9">
+                  <h2 style="font-family: fantasy"><b>Our Success Story</b></h2>
+                  <p><i><b>At the end of the day, people want to buy from you so they can solve their own specific problems.
+                   To successfully convince your target audience that you can help them, you need to 
+                   prove that you've helped others who have been struggling with the same issues.
+                   HubSpot does a great job of featuring their customer's pain points in this success story. 
+                  <p>TDiscover what problems your client had that your product or service helped 
+                      to solve. Choose one or two that are most relevant to your target audience,
+                       and be sure to focus on them throughout the success story.</b></i>
+                  </p>
+              </div>
+        </div>
+  </div>
+ <div class="container-fluid">
+       <div class="row mt-5">
+             <img src="img/our_mission.jpg"alt="mission" class="img-fluid">
+              <div class="col-sm-9">
+                  <h2 style="font-family: fantasy"><b>Our Mission</b></h2>
+                  <p><i><b>At the end of the day, people want to buy from you so they can solve their own specific problems.
+                   To successfully convince your target audience that you can help them, you need to 
+                   prove that you've helped others who have been struggling with the same issues.
+                   HubSpot does a great job of featuring their customer's pain points in this success story. 
+                  <p>TDiscover what problems your client had that your product or service helped 
+                      to solve. Choose one or two that are most relevant to your target audience,
+                       and be sure to focus on them throughout the success story.</b></i>
+                  </p>
+               </div>
+          </div>
+  </div>
+          <!---Start of describing us into second grid area-->
+<div class="container-fluid">
+        <div class="row mt-5">
+        <div class="col-sm-6">
+              <img src="img/only_us.jpg"alt="Only Us" class="img-fluid">
+              <h2 style="font-family: fantasy"><b>Why only us?</b></h2>
+              <p>
+              <h6>
+                  <i><b>We are a team of smart worker who are delivering customer centric solution of
+                       the real life problem.Our main focus is to solve the daily life problems.
+              
+                       Our main motive is on the client satisfaction.As per the previous record we have 
+                      a good customer satisfaction record.</b>
+                  </i>
+              </h6>
+			   </div>
+        <div class="col-sm-6">
+             <img src="img/diffirent.jpg"alt="Makes us diffirent" class="img-fluid">
+              <h2 style="font-family:fantasy"> <b>What make us different</b></h2>
+              <p>
+              <h6>&nbsp;&nbsp;
+                  <i><b>We are a team of smart worker who are delivering customer centric solution of
+                       the real life problem.Our main focus is to solve the daily life problems.
+              
+                       Our main motive is on the client satisfaction.As per the previous record we have 
+                      a good customer satisfaction record.</b>
+                  </i>
+              </h6>
+          </div>
+       </div>
+      <!----Start third grid area-->
+      <div class="container-fluid">
+       <div class="row no-gutters">
+              <div class="col-sm-4">
+                <!---Current market situation-->
+                 <img src="img/current_market.jpg" class="img-fluid"alt="Current_market">
+                  <h2 style="font-family:fantasy"><i><b>Current Market</b></i></h2>
+                  <p><i><b>The global information technology industry is on pace to reach $5 trillion in 2019,
+                       according to the research consultancy IDC. The enormity of the industry is a function
+                        of many of the trends discussed in this report. Economies, jobs, and personal lives
+                         are becoming more digital, more connected, and increasingly, more </b></i>
+               </p>
+              </div>
+              <div class="col-sm-4">
+                <!---Our vision-->
+                  <img src="img/our_vission.jpg"alt="Our vision" class="img-fluid" >
+                  <h2 style="font-family: fantasy"><i><b>Our vision</b></i></h2>
+                  <p><i><b>Inspire the world with our innovative technologies, products and design that enrich people’s 
+                      lives and contribute to social prosperity by creating a new future.
+                      Offer a wide range of well-designed, functional home furnishing products at prices so low that 
+                      as many people as possible will be able to afford them.</b></i>
+                  </p>
+                  </div>
+                  <div class="col-sm-4">
+                    <!---Client engazement-->
+                         <img src="img/client_engazement.png"alt="client engazement" class="img-fluid" >
+                            <h2 style="font-family: fantasy"><i><b>Client Engazement</b></i></h2>
+                            <p><i><b>We are here to help our customers kick ass. We do that by living our strategy and ruthlessly 
+                                prioritizing our work to create simple elegant technology that delights our customers –
+                                 all while delivering service that is second to none. Every single day, we join forces 
+                                 across teams and groups to break down barriers,
+                                 build new markets and stare down the impossible until the impossible blinks.</b></i>
+                            </p>
+                        </div>
+                      </div>
+          </div>  
+       </div>
+<div class="container-fluid">
+  <!---Showing blogs part---------------------->
+       <div class="row justify-content-md-center">
+              <div class="col-sm-4">
+				  <h2 style="font-family: fantasy"><i><b>Recent Blogs</b></i></h2>
+                            <p><i><b>We are here to help our customers kick ass. We do that by living our strategy and ruthlessly 
+                                prioritizing our work to create simple elegant technology that delights our customers –
+                                 all while delivering service that is second to none. Every single day, we join forces 
+                                 across teams and groups to break down barriers,
+                                 build new markets and stare down the impossible until the impossible blinks.</b></i>
+                            </p>
+                 
+                 </div>
+
+              
+              <div class="col-sm-4">
+                  
+                  <h2 style="font-family: fantasy"><i><b>Key Members</b></i></h2>
+                  <p><i><b>SAMARESH MAITI</b></i>
+                  </p>
+                  </div>
+                  <div class="col-sm-4">
+                         <!--Making Enquiry forms-->
+                  <h2> <b>Enquiry Forms</b></h2>
+            <form>
+                <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+               </div>
+               <div class="form-group">
+               <label for="exampleFormControlTextarea1">Mobile No.</label>
+               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1234567890">
+               </div>
+               <div class="form-group">
+               <label for="exampleFormControlTextarea1">Message</label>
+               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+               </div>
+               <div class="form-group">
+               <button type="button" class="btn btn-warning">Submit</button>
+               </div>
+            </form>
+          </div>
+          </div>  
+       </div>
+</section>
+
+
+
+   <!-- Start Footer bottom Area -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                
+                  <!--Name of company and details-->
+                  <h2><span>The</span>Wall</h2>
+                
+
+                <p>I am Samaresh Maiti.I have completed B.Tech. in Information Technology.</p>
+                <div class="footer-icons">
+                  <div>
+                    <!--Adding social media links-->
+        <ul class="social-network social-circle">
+          <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+          <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <!--Contact details-->
+                <h2>Contact</h2>
+                <p>
+                    <div id="exTab3" class="container">	
+                    <ul  class="nav nav-pills">
+                          <li class="active">
+                            <a  href="#1b" data-toggle="tab">Office Phone</a>
+                          </li>
+                          <li><a href="#2b" data-toggle="tab">Office Email</a>
+                          </li>
+                          <li><a href="#3b" data-toggle="tab">Skype</a>
+                          </li>
+                        </ul>
+                    
+                          <div class="tab-content clearfix">
+                            <div class="tab-pane active" id="1b">
+                              <h3><span class="glyphicon glyphicon-user"></span>+91-8768027189</h3>
+                            </div>
+                            <div class="tab-pane" id="2b">
+                              <h3><span class="glyphicon glyphicon-envelope"></span> samaresh01maiti@gmail.com</h3>
+                            </div>
+                            <div class="tab-pane" id="3b">
+                              <h3><span class="glyphicon glyphicon-group"></span> 8768027189</h3>
+                            </div>
+                             
+                          </div>
+                      </div>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- Newsteller part -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h2>NewsTeller</h2>
+                <div class="flicker-img">
+                  <a href="#"><img src="portfolio/1.jpg" alt="" style="height:50px;width:100px"></a>
+                  <a href="#"><img src="portfolio/2.jpg" alt="" style="height:50px;width:100px"></a>
+                  <a href="#"><img src="portfolio/3.jpg" alt="" style="height:50px;width:100px"></a>
+                  <a href="#"><img src="portfolio/4.jpg" alt="" style="height:50px;width:100px"></a>
+                  <a href="#"><img src="portfolio/5.jpg" alt="" style="height:50px;width:100px"></a>
+                  <a href="#"><img src="portfolio/6.jpg" alt="" style="height:50px;width:100px"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                <!--copyright part-->
+                &copy; Copyright <strong>TheWall</strong>. All Rights Reserved
+              </p>
+            </div>
+            <div class="credits">
+             
+              Designed by <a href="#">Samaresh</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!--completed footer area-->
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/knob/jquery.knob.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/parallax/parallax.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+  <script src="lib/appear/jquery.appear.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</html>

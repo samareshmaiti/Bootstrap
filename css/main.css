@@ -1,0 +1,159 @@
+/*Navigation header area*/
+.navbar-brand
+{
+  margin-top:-10px;
+  margin-left:30px !important;
+}
+.nav.navbar-nav.li
+{
+  margin-left: 50px !important;
+}
+
+/*jumbotron area*/
+.jumbotron
+{
+  margin-top: -18px;
+}
+.jumbotron h1
+{
+font-family:fantasy;
+text-align: center;
+color:green !important;
+}
+/*carousel part*/
+#myCarousel
+{
+  margin-top: -30px;
+}
+.carousel-inner img
+{
+  width:1400px !important;
+  height:600px !important;
+}
+/*First grid image position*/
+.row.mt-5
+
+{
+  margin-top:10px !important;
+  margin-left: 20px;
+}
+.row.mt-5.col-sm-9
+{
+  float:right;
+}
+/*second grid*/
+.col-sm-6
+{
+  float:right;
+ margin-top: 10px !important;
+}
+.col-sm-6 img
+{
+  margin-left: 120px !important;
+}
+.row.mt-5 p
+{
+  margin-left: 120px;
+}
+
+.row.no-gutters.col-sm-4
+{
+  margin-left: 50px !important;
+}
+.col-sm-4
+{
+  margin-top: 20px !important;
+  
+
+}
+/* Footer area start*/
+.footer-area {
+  padding: 40px 0;
+  background: #f9f9f9;
+}
+/*Footer area heading*/
+.footer-head p {
+  color: #444;
+}
+/*Footer social media icons*/
+.footer-icons ul li {
+  display: inline-block;
+}
+
+.footer-icons ul li a {
+  border: 1px solid #444;
+  color: #444;
+  display: block;
+  font-size: 16px;
+  height: 40px;
+  line-height: 38px;
+  margin-right: 5px;
+  text-align: center;
+  width: 40px;
+  border-radius: 50%;
+}
+#lab_social_icon_footer #social-fb:hover {
+  color: #3B5998;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+  color: #4099FF;
+}
+
+#lab_social_icon_footer #social-gp:hover {
+  color: #d34836;
+}
+
+#lab_social_icon_footer #social-em:hover {
+  color: #f39c12;
+}
+
+/*Footer newsteller images*/
+.flicker-img>a {
+  float: left;
+  padding: 1px;
+  width: 33.33%;
+}
+
+.footer-icons {
+  margin-top: 30px;
+}
+/*Contact part of footer*/
+.footer-contacts p span {
+  color: #3EC1D5;
+  font-weight: 700;
+}
+.footer-content {
+  display: block;
+  overflow: hidden;
+}
+.footer-area-bottom {
+  background: #f1f1f1 none repeat scroll 0 0;
+  padding: 15px 0;
+}
+/*Copyright area*/
+.copyright-text a:hover {
+  text-decoration: underline;
+  color: #3EC1D5;
+}
+
+.copyright-text a {
+  color: #444;
+}
+
+.copyright>p {
+  margin-bottom: 0;
+  color: #444;
+}
+
+.copyright a, .credits a {
+  color: #3EC1D5;
+}
+
+.credits {
+  padding-top: 5px;
+  text-align: center;
+}
+
+
+
